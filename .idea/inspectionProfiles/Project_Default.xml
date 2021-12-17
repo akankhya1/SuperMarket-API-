@@ -1,0 +1,48 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W292" />
+          <option value="E122" />
+          <option value="E231" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="Mind2i.models.q5_arrivalamp" />
+          <option value="Mind2i.models.minuteSelect" />
+          <option value="Mind2i.models.hourSelect" />
+          <option value="Mind2i.models.ampm" />
+          <option value="Mind2i.views.minuteSelect" />
+          <option value="Mind2i.views.q5_arrivalamp" />
+          <option value="Mind2i.views.ampm" />
+          <option value="Mind2i.views.q5" />
+          <option value="Mind2i.views.identity_proof" />
+          <option value="Mind2i.views.id_details" />
+          <option value="Mind2i.views.work_experience" />
+          <option value="Mind2i.views.projects" />
+          <option value="Mind2i.models.default" />
+          <option value="django_heroku" />
+          <option value="TrainingProject.Combined.hosts.django_hosts" />
+          <option value="TrainingProject.Combined.hosts.Combined" />
+          <option value="pymysql" />
+          <option value="django.core.asgi" />
+          <option value="TrainingProject.Combined.asgi.get_asgi_application" />
+          <option value="django_hosts" />
+          <option value="TrainingProject.Combined.hosts.host_patterns" />
+          <option value="TrainingProject.Combined.hosts.redirect_urls" />
+          <option value="jwt" />
+          <option value="requests" />
+          <option value="django.urls.path" />
+          <option value="django.urls.include" />
+          <option value="example_django.urls.tickets" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="XmlInvalidId" enabled="false" level="ERROR" enabled_by_default="false" />
+  </profile>
+</component>
