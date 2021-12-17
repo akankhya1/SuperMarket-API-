@@ -115,28 +115,3 @@ class ItemDetail(APIView):
          return Response(status=status.HTTP_204_NO_CONTENT)
 
 
-# class ListCategory(generics.ListCreateAPIView):
-#     queryset = Category.objects.all()
-#     serializer_class = CategorySerializer
-#
-# class DetailCategory(generics.RetrieveUpdateDestroyAPIView):
-#     queryset = Category.objects.all()
-#     serializer_class = CategorySerializer
-#
-# class ListSubCategory(generics.ListCreateAPIView):
-#     queryset = SubCategory.objects.all()
-#     serializer_class = SubCategorySerializer
-#
-# class DetailSubCategory(generics.RetrieveUpdateDestroyAPIView):
-#     queryset = SubCategory.objects.all()
-#     serializer_class = SubCategorySerializer
-#
-#
-# class ListItem(generics.ListCreateAPIView):
-#     queryset = Item.objects.all()
-#     serializer_class = ItemSerializer
-#
-# class DetailItem(generics.RetrieveUpdateDestroyAPIView):
-#     queryset = Item.objects.all()
-#     serializer_class = ItemSerializer
-
