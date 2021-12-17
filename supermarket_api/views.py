@@ -73,10 +73,7 @@ class ItemList(APIView):
         serializer = ItemSerializer(items, many=True)
         return Response(serializer.data)
 
-      # def get(self, request, format=None):
-      #     items = Item.objects.all()
-      #     serializer = ItemSerializer(items, many=True)
-      #     return Response(serializer.data)
+     
 
     def post(self, request, format=None):
         serializer = ItemSerializer(data=request.data)
